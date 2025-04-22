@@ -70,24 +70,41 @@ input[type="text"]:focus {
     }
 }
 
-.profile-card {
-    position: absolute;
-    top: 55%;
-    right: 90px;
-    z-index: 1;
-    padding: 10px 20px;
-    border-radius: 30px;
-    background: rgba(227, 222, 222, 0.286);
-    /* box-shadow: 0 0 10px rgba(173, 216, 230, 0.5); */
-    backdrop-filter: blur(8px); /* blur effect */
-    -webkit-backdrop-filter: blur(8px);
-    text-align: center;
-    border: 1px solid rgba(39, 40, 41, 0.4);
-    max-width: 400px;
-    }
-
 /* mobile */
 @media screen and (min-width: 10px) and (max-width: 930px) {
+    .profile-card {
+        position: absolute;
+        top: 360px;
+        right: 15%;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .custom-button {
+        font-weight: 700;
+        font-size: 13px;
+        color: white;
+        background: linear-gradient(to bottom, #b30000, #b30000, #ff6666); /* Gradient: dark red edges, lighter center */
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        padding: 15px 30px;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+    .label {
+        background-color: white;
+        color: #333;
+        font-size: 11px;
+        font-weight: 500;
+        padding: 5px 15px 10px 15px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for the label */
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+
     .container {
         display: flex;
         width: 92%;
@@ -424,6 +441,40 @@ input[type="text"]:focus {
 
 /* desktop */
 @media screen and (min-width: 930px) and (max-width: 1900px) {
+    .profile-card {
+        position: absolute;
+        top: 55%;
+        right: 60px;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .custom-button {
+        font-weight: 700;
+        font-size: 20px;
+        color: white;
+        background: linear-gradient(to bottom, #b30000, #b30000, #ff6666); /* Gradient: dark red edges, lighter center */
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        padding: 15px 40px;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+    
+    .label {
+        background-color: white;
+        color: #333;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 5px 15px 10px 15px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for the label */
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+
     body {
         background-color: #111;
     }
