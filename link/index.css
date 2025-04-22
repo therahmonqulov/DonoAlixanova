@@ -78,13 +78,13 @@ input[type="text"]:focus {
     }
     .custom-button {
         font-weight: 700;
-        font-size: 11px;
+        font-size: 13px;
         color: white;
         background: linear-gradient(to bottom, #5c00d2, #6929bd, #996cd4); /* Gradient: dark red edges, lighter center */
         border: none;
         outline: none;
         border-radius: 15px;
-        padding: 10px 20px;
+        padding: 10px 30px;
         cursor: pointer;
         text-transform: uppercase;
     }
@@ -440,7 +440,7 @@ input[type="text"]:focus {
     .profile-card {
         position: absolute;
         top: 55%;
-        right: 60px;
+        right: 90px;
         z-index: 1;
         display: flex;
         flex-direction: column;
@@ -450,16 +450,17 @@ input[type="text"]:focus {
         font-weight: 700;
         font-size: 20px;
         color: white;
-        background: linear-gradient(to bottom, #b30000, #b30000, #ff6666); /* Gradient: dark red edges, lighter center */
+        background: linear-gradient(to bottom, #5c00d2, #6929bd, #996cd4); /* Gradient: dark red edges, lighter center */
         border: none;
         outline: none;
         border-radius: 15px;
-        padding: 15px 40px;
+        padding: 15px 30px;
         cursor: pointer;
         text-transform: uppercase;
     }
     
     .label {
+        text-align: center;
         background-color: white;
         color: #333;
         font-size: 14px;
