@@ -399,9 +399,10 @@ input[type="text"]:focus {
         padding: 10px;
     }
     form .submit-button {
+        font-weight: 600;
         width: 100%;
         padding: 20px 0px;
-        background: linear-gradient(to right, #e63946, #d87474, #e63946); /* Gradient background */
+        background-color: #e63946;
         color: white;
         border: none;
         border-radius: 5px;
