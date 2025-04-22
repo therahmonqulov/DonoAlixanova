@@ -234,7 +234,7 @@ forme.addEventListener('submit', e => {
 
   // 1 soniya ichida o‘tkazamiz (brauzer fetchni orqa fonda bajaradi)
   setTimeout(() => {
-      window.location.assign("./thank-you.html");
+      window.location.assign("./thank-you/index.html");
   }, 1000);
 });
 
