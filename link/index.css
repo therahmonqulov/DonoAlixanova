@@ -6,13 +6,6 @@
     color: #ffffff;
 }
 
-.div-p {
-    text-align: center;
-    font-weight: 600;
-    margin-bottom: 20px;
-    color: #000;
-}
-
 /* form */
 .phone-input {
     display: flex;
@@ -178,8 +171,15 @@ input[type="text"]:focus {
         border-radius: 25px;
         background-color: #DFDFDF;
         padding: 20px 10px 20px 10px;
-        margin-bottom: 35px;
+        margin-bottom: 30px;
         border: 1px solid #5C5C5C;
+    }
+    .div-p {
+        line-height: 1.3;
+        text-align: center;
+        font-weight: 600;
+        margin-bottom: 20px;
+        color: #000;
     }
     .main-text-list p {
         font-style: italic;
@@ -465,7 +465,7 @@ input[type="text"]:focus {
 @media screen and (min-width: 930px) and (max-width: 1900px) {
     .profile-card {
         position: absolute;
-        top: 60%;
+        top: 55%;
         right: 90px;
         z-index: 1;
         display: flex;
@@ -555,6 +555,14 @@ input[type="text"]:focus {
         margin-top: 30px;
         margin-bottom: 30px;
         border: 1px solid #5C5C5C;
+    }
+    .div-p {
+        line-height: 1.6;
+        width: 350px;
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        color: #000;
     }
     .main-text-list p {
         font-style: italic;
