@@ -171,7 +171,7 @@ input[type="text"]:focus {
         border-radius: 25px;
         background-color: #DFDFDF;
         padding: 20px 10px 20px 10px;
-        margin-bottom: 20px;
+        margin-bottom: 35px;
         border: 1px solid #5C5C5C;
     }
     .main-text-list p {
@@ -264,9 +264,19 @@ input[type="text"]:focus {
         text-align: center;
         margin: 30px 0px;
     }
+    .divs {
+        margin-top: 15px;
+        display: flex;
+        gap: 5px;
+        margin-right: 50px;
+    }
+    .divs img {
+        width: 50px;
+        height: 40px;
+    }
     .mobile-text-p {
         margin: 15px 0px;
-        font-size: 25px;
+        font-size: 30px;
         color: #000;
         font-weight: 700;
         background: none !important;
@@ -512,7 +522,7 @@ input[type="text"]:focus {
         color: #000;
     }
     .main-text-span2 img {
-        width: 40px;
+        width: 30px;
     }
     .main-text-p {
         margin: 15px 0px 25px 0px;
