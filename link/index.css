@@ -443,13 +443,13 @@ input[type="text"]:focus {
         align-items: center;
         justify-content: center;
         border-radius: 10px;
-        width: 270px;
-        padding: 15px 0px;
+        width: 360px;
+        padding: 13px 0px;
         background-color: #252525;
     }
     .main-text-span2 { 
         font-weight: 600;
-        font-size: 15px;
+        font-size: 18px;
         color: #fff;
     }
     .main-text-p {
@@ -497,13 +497,14 @@ input[type="text"]:focus {
     }
     .img-button {
         font-weight: 700;
-        font-size: 18px;
-        background-color: #9c0001;
-        border: 1px solid #c8c8ad62;
+        font-size: 17px;
+        background: linear-gradient(to right, #b30000, #ff6666, #b30000); /* Gradient background */
+        border: none;
         outline: none;
         border-radius: 20px;
         box-shadow: 0 5px 0 #770d0e;
-        padding: 30px 60px;
+        padding: 25px 65px;
+        border: 1px solid #ffffff5d;
         margin-bottom: 30px;
     }
     .main-button p {
