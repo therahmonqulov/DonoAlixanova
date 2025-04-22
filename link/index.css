@@ -94,7 +94,7 @@ input[type="text"]:focus {
         margin: auto;
     }
     body {
-        background-color: #111111;
+        background-color: #fff;
     }
     .text {
         width: 100%;
@@ -106,20 +106,20 @@ input[type="text"]:focus {
         gap: 10px;
     }
     .main-text {
-        width: 200px;
+        width: 270px;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        border-radius: 10px;
-        background-color: #252525;
-        padding: 12px 0px;
+        border-radius: 15px;
+        padding: 12px 20px;
         margin-top: 25px;
+        border: 1px solid #5c00d2;
     }
     .main-text-span2 {
         font-weight: 700;
-        font-size: 12px;
-        color: #fff;
+        font-size: 18px;
+        color: #000;
     }
     .main-text-p {
         font-size: 14px !important;
@@ -141,11 +141,11 @@ input[type="text"]:focus {
         align-items: center;
     }
     .main-text-h1 h1 {
-        width: 350px;
+        width: 332px;
         line-height: 1.6;
         text-align: center;
-        font-size: 21px;
-        color: #fff;
+        font-size: 20px;
+        color: #000;
         margin-bottom: 15px;
     }
     .main-text-list {
@@ -209,7 +209,7 @@ input[type="text"]:focus {
     #mobile-text button {
         font-weight: 700;
         font-size: 17px;
-        background-color: #b30000;
+        background: linear-gradient(to right, #b30000, #ff6666, #b30000); /* Gradient background */
         border: none;
         outline: none;
         border-radius: 20px;
@@ -246,14 +246,14 @@ input[type="text"]:focus {
     .mobile-text-p {
         margin: 15px 0px;
         font-size: 25px;
-        color: #fff;
+        color: #000;
         font-weight: 700;
         background: none !important;
     }
     .mobile-text button {
         font-weight: 700;
         font-size: 17px;
-        background-color: #b30000;
+        background: linear-gradient(to right, #b30000, #ff6666, #b30000); /* Gradient background */
         border: none;
         outline: none;
         border-radius: 20px;
