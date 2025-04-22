@@ -457,7 +457,7 @@ input[type="text"]:focus {
 @media screen and (min-width: 930px) and (max-width: 1900px) {
     .profile-card {
         position: absolute;
-        top: 55%;
+        top: 60%;
         right: 90px;
         z-index: 1;
         display: flex;
