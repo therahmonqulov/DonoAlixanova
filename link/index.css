@@ -413,7 +413,7 @@ input[type="text"]:focus {
 
     /* footer */
     .footer {
-        margin-top: 40px;
+        margin-top: 10px;
         padding: 30px 0px;
         background-color: #000;
     }
