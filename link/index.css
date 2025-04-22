@@ -116,7 +116,6 @@ input[type="text"]:focus {
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 10px;
     }
     .main-text {
         width: 280px;
@@ -132,7 +131,7 @@ input[type="text"]:focus {
     .main-text-span2 {
         display: flex;
         align-items: center;
-        gap: 10px;
+        gap: 15px;
         font-weight: 700;
         font-size: 18px;
         color: #000;
