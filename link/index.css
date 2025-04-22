@@ -78,17 +78,18 @@ input[type="text"]:focus {
     }
     .custom-button {
         font-weight: 700;
-        font-size: 13px;
+        font-size: 11px;
         color: white;
         background: linear-gradient(to bottom, #5c00d2, #6929bd, #996cd4); /* Gradient: dark red edges, lighter center */
         border: none;
         outline: none;
         border-radius: 15px;
-        padding: 10px 30px;
+        padding: 10px 20px;
         cursor: pointer;
         text-transform: uppercase;
     }
     .label {
+        text-align: center;
         background-color: white;
         color: #333;
         font-size: 11px;
