@@ -107,7 +107,7 @@ input[type="text"]:focus {
         margin: auto;
     }
     body {
-        background-color: #fff;
+        background-color: #E7E7E7;
     }
     .text {
         width: 100%;
@@ -491,7 +491,7 @@ input[type="text"]:focus {
 
 
     body {
-        background-color: #fff;
+        background-color: #E7E7E7;
     }
 
     .container {
