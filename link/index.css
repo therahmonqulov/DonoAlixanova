@@ -586,7 +586,13 @@ input[type="text"]:focus {
         font-weight: 700;
         font-size: 35px;
         color: #000;
-        margin: 25px 0px;
+    }
+    .main-button-div {
+        margin-left: 40px;
+        gap: 10px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
     }
     .text {
         margin-left: 80px;
