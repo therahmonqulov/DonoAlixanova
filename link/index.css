@@ -70,6 +70,22 @@ input[type="text"]:focus {
     }
 }
 
+.profile-card {
+    position: absolute;
+    top: 55%;
+    right: 90px;
+    z-index: 1;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: rgba(227, 222, 222, 0.286);
+    /* box-shadow: 0 0 10px rgba(173, 216, 230, 0.5); */
+    backdrop-filter: blur(8px); /* blur effect */
+    -webkit-backdrop-filter: blur(8px);
+    text-align: center;
+    border: 1px solid rgba(39, 40, 41, 0.4);
+    max-width: 400px;
+    }
+
 /* mobile */
 @media screen and (min-width: 10px) and (max-width: 930px) {
     .container {
