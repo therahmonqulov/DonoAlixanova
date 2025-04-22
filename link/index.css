@@ -64,11 +64,6 @@ input[type="text"]:focus {
     font-size: 14px;
 }
 
-@media screen and (max-width: 484px) {
-    .main-text-p {
-        font-size: 12px !important;
-    }
-}
 
 /* mobile */
 @media screen and (min-width: 10px) and (max-width: 930px) {
@@ -89,7 +84,7 @@ input[type="text"]:focus {
         border: none;
         outline: none;
         border-radius: 20px;
-        padding: 15px 30px;
+        padding: 10px 30px;
         cursor: pointer;
         text-transform: uppercase;
     }
@@ -98,7 +93,7 @@ input[type="text"]:focus {
         color: #333;
         font-size: 11px;
         font-weight: 500;
-        padding: 5px 15px 10px 15px;
+        padding: 5px 15px 8px 15px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for the label */
         border-bottom-right-radius: 10px;
         border-bottom-left-radius: 10px;
@@ -226,7 +221,7 @@ input[type="text"]:focus {
     #mobile-text button {
         font-weight: 700;
         font-size: 17px;
-        background: linear-gradient(to right, #b30000, #ff6666, #b30000); /* Gradient background */
+        background: linear-gradient(to right, #b30000, #e36363, #b30000); /* Gradient background */
         border: none;
         outline: none;
         border-radius: 20px;
@@ -270,7 +265,7 @@ input[type="text"]:focus {
     .mobile-text button {
         font-weight: 700;
         font-size: 17px;
-        background: linear-gradient(to right, #b30000, #ff6666, #b30000); /* Gradient background */
+        background: linear-gradient(to right, #b30000, #e36363, #b30000); /* Gradient background */
         border: none;
         outline: none;
         border-radius: 20px;
@@ -549,7 +544,7 @@ input[type="text"]:focus {
     .img-button {
         font-weight: 700;
         font-size: 17px;
-        background: linear-gradient(to right, #b30000, #ff6666, #b30000); /* Gradient background */
+        background: linear-gradient(to right, #b30000, #df5555, #b30000); /* Gradient background */
         border: none;
         outline: none;
         border-radius: 20px;
