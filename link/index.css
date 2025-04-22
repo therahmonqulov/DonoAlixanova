@@ -119,20 +119,26 @@ input[type="text"]:focus {
         gap: 10px;
     }
     .main-text {
-        width: 270px;
+        width: 280px;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
         border-radius: 15px;
-        padding: 12px 20px;
+        padding: 10px 20px;
         margin-top: 25px;
         border: 1px solid #5c00d2;
     }
     .main-text-span2 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
         font-weight: 700;
         font-size: 18px;
         color: #000;
+    }
+    .main-text-span2 img {
+        width: 35px;
     }
     .main-text-p {
         font-size: 14px !important;
@@ -163,9 +169,10 @@ input[type="text"]:focus {
     }
     .main-text-list {
         border-radius: 25px;
-        background-color: #1a1a1a;
+        background-color: #DFDFDF;
         padding: 20px 10px 20px 10px;
         margin-bottom: 20px;
+        border: 1px solid #5C5C5C;
     }
     .main-text-list p {
         font-style: italic;
@@ -173,11 +180,11 @@ input[type="text"]:focus {
         margin-top: 5px;
         text-align: center;
         font-size: 19px;
-        color: #fff;
+        color: #000;
     }
     .main-text-list li {
         line-height: 1.4;
-        color: #fff;
+        color: #000;
         font-size: 16px;
         list-style: none;
         display: flex;
@@ -383,7 +390,7 @@ input[type="text"]:focus {
     form .submit-button {
         width: 100%;
         padding: 20px 0px;
-        background-color: #e63946;
+        background: linear-gradient(to right, #e63946, #d87474, #e63946); /* Gradient background */
         color: white;
         border: none;
         border-radius: 5px;
@@ -473,7 +480,7 @@ input[type="text"]:focus {
 
 
     body {
-        background-color: #111;
+        background-color: #fff;
     }
 
     .container {
@@ -493,12 +500,18 @@ input[type="text"]:focus {
         border-radius: 10px;
         width: 360px;
         padding: 13px 0px;
-        background-color: #252525;
+        border: 1px solid #5c00d2;
     }
     .main-text-span2 { 
+        display: flex;
+        align-items: center;
+        gap: 10px;
         font-weight: 600;
         font-size: 18px;
-        color: #fff;
+        color: #000;
+    }
+    .main-text-span2 img {
+        width: 40px;
     }
     .main-text-p {
         margin: 15px 0px 25px 0px;
@@ -509,7 +522,7 @@ input[type="text"]:focus {
         display: none;
     }
     .main-text-h1 h1 {
-        color: #fff;
+        color: #000;
         width: 69%;
         line-height: 1.4;
         font-size: 26px;
@@ -518,22 +531,23 @@ input[type="text"]:focus {
     .main-text-list {
         border-radius: 25px;
         width: 63%;
-        background-color: #1a1a1a;
+        background-color: #DFDFDF;
         padding: 20px 15px 30px 15px;
         margin-top: 30px;
         margin-bottom: 30px;
+        border: 1px solid #5C5C5C;
     }
     .main-text-list p {
         font-style: italic;
         font-weight: 700;
-        color: #fff;
+        color: #000;
         margin-bottom: 30px;
     }
     .main-text-list li {
         line-height: 20px;
         font-size: 14px;
         width: 100%;
-        color: #fff;
+        color: #000;
         list-style: none;
         display: flex;
         align-items: start;
@@ -691,7 +705,7 @@ input[type="text"]:focus {
         margin-bottom: 40px;
         width: 100%;
         padding: 20px 0px;
-        background-color: #e63946;
+        background: linear-gradient(to right, #e63946, #d87474, #e63946); /* Gradient background */
         color: white;
         border: none;
         border-radius: 5px;
