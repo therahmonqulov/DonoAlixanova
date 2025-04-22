@@ -221,7 +221,7 @@ input[type="text"]:focus {
     #mobile-text button {
         font-weight: 700;
         font-size: 17px;
-        background: linear-gradient(to right, #b30000, #e36363, #b30000); /* Gradient background */
+        background: linear-gradient(to right, #b30000, #dc5454, #b30000); /* Gradient background */
         border: none;
         outline: none;
         border-radius: 20px;
@@ -265,7 +265,7 @@ input[type="text"]:focus {
     .mobile-text button {
         font-weight: 700;
         font-size: 17px;
-        background: linear-gradient(to right, #b30000, #e36363, #b30000); /* Gradient background */
+        background: linear-gradient(to right, #b30000, #dc5454, #b30000); /* Gradient background */
         border: none;
         outline: none;
         border-radius: 20px;
@@ -544,7 +544,7 @@ input[type="text"]:focus {
     .img-button {
         font-weight: 700;
         font-size: 17px;
-        background: linear-gradient(to right, #b30000, #df5555, #b30000); /* Gradient background */
+        background: linear-gradient(to right, #b30000, #dc5454, #b30000); /* Gradient background */
         border: none;
         outline: none;
         border-radius: 20px;
