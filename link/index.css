@@ -138,7 +138,7 @@ input[type="text"]:focus {
         color: #000;
     }
     .main-text-span2 img {
-        width: 35px;
+        width: 30px;
     }
     .main-text-p {
         font-size: 14px !important;
@@ -195,8 +195,9 @@ input[type="text"]:focus {
         margin-bottom: 20px;
     }
     .main-text-list li img {
-        margin-right: 10px;
-        width: 30px;
+        margin-top: 5px;
+        margin-right: 5px;
+        width: 25px;
     }
     .main-button {
         display: none;
@@ -554,8 +555,9 @@ input[type="text"]:focus {
         margin-top: 20px;
     }
     .main-text-list li img {
+        margin-top: 5px;
         margin-right: 8px;
-        width: 30px;
+        width: 25px;
     }
     .img-button {
         font-weight: 700;
