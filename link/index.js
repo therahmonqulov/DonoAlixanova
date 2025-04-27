@@ -224,19 +224,25 @@ forme.addEventListener('submit', e => {
   }
 
   const formData = new FormData(forme);
+  const data = new URLSearchParams();
+
+  for (const pair of formData) {
+    data.append(pair[0], pair[1]);
+  }
+
   warningP.textContent = "Yuborilmoqda...";
 
   fetch(scriptURL, {
       method: 'POST',
-      body: formData,
-      mode: 'no-cors'
+      body: data,
   });
 
-  // 1 soniya ichida o‘tkazamiz (brauzer fetchni orqa fonda bajaradi)
+  // 1 soniya ichida sahifani o‘zgartirish
   setTimeout(() => {
       window.location.assign("./thank-you.html");
   }, 1000);
 });
+
 
 
 // Xatolik xabarini yaratish
